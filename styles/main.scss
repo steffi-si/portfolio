@@ -1,0 +1,14 @@
+$color-one: #45364B;
+$color-two: #62466B;
+$color-three: #1A5E63;
+$color-four: #B5FFE1;
+$color-five: #cfa63d;
+
+@import "header";
+@import "about-section";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

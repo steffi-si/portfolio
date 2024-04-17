@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch ./styles/main.scss main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffi-si/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steffi-si/portfolio/issues"
+  },
+  "homepage": "https://github.com/steffi-si/portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  }
+}
