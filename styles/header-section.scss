@@ -1,0 +1,26 @@
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: $color-five;
+    height: 5vh;
+    padding: 0.5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-section__nav-list {
+    display: flex;
+}
+
+.header-section__nav-list-item {
+    list-style-type: none;
+}
+
+.header-section__nav-list-item-link {
+    text-decoration: none;
+    color: $color-five;
+    margin: 0px 10px;
+}

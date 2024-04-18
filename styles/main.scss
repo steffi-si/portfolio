@@ -3,12 +3,27 @@ $color-two: #62466B;
 $color-three: #1A5E63;
 $color-four: #B5FFE1;
 $color-five: #cfa63d;
+$color-gradient: linear-gradient(to bottom right, #cfa63d, white, #cfa63d);
 
-@import "header";
+@font-face {
+    font-display: swap; 
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Pacifico/Pacifico-Regular.ttf') format('woff2');
+}
+
+@import "header-section";
 @import "about-section";
+@import "cv-section";
+@import "project-section";
+@import "contact-section";
+@import "footer-section";
+
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Pacifico;
 }
