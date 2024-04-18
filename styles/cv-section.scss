@@ -7,22 +7,36 @@
 .cv-section__wrapper1 {
     width: 40%;
     background-color: $color-two;
+    box-shadow: 2px 2px 5px black inset;
 }
 
 .cv-section__wrapper2 {
     width: 60%;
     background-color: $color-one;
+    box-shadow: 2px 2px 5px black inset;
 }
 
 .cv-section__heading {
     color: transparent;
-    -webkit-text-fill-color: $color-five;
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
     font-size: 40px;
-    text-shadow: 2px 2px 10px black;
     padding-left: 7px;
     text-align: center;
     padding-top: 10vh;
+}
+
+.cv-section__text {
+    font-size: 36px;
+    padding: 25vh 5vw 0 5vw;
+}
+
+.cv-section__image {
+    width: 80%;
+    margin-top: 9vh;
+    margin-left: 4vw;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 2px black; 
 }

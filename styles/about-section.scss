@@ -13,6 +13,7 @@
     grid-template-rows: repeat(3, 1fr);
     padding-left: 15%;
     padding-top: 7%;
+    box-shadow: 2px 2px 5px black inset;
 }
 
 .tile1 {
@@ -48,6 +49,7 @@
 .about-section__wrapper1 {
     width: 40%;
     background-color: $color-one;
+    box-shadow: 2px 2px 5px black inset;
 }
 
 .about-section__image {
@@ -68,22 +70,20 @@
 
 .highlighted-text {
     color: transparent;
-    -webkit-text-fill-color: $color-five;
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
     font-size: 36px;
-    text-shadow: 2px 2px 10px black;
 }
 
 .technologies {
     color: transparent;
-    -webkit-text-fill-color: $color-five;
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
     font-size: 40px;
-    text-shadow: 2px 2px 10px black;
     padding-left: 7px;
 }
 
