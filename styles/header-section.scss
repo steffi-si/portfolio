@@ -31,11 +31,16 @@
 // ---------------------------------------
 .header-section__pyramid-loader {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 20px;
+    height: 20px;
     display: block;
     transform-style: preserve-3d;
     transform: rotateX(-20deg);
+    margin-left: 10px;
+  }
+
+  .header-section--left {
+    display: flex;
   }
   
   .header-section__pyramid-wrapper {
@@ -53,8 +58,8 @@
   }
   
   .header-section__pyramid-loader .header-section__pyramid-wrapper .side {
-    width: 70px;
-    height: 70px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -83,18 +88,4 @@
   .header-section__pyramid-loader .header-section__pyramid-wrapper .side4 {
     transform: rotateX(-30deg);
     background: conic-gradient( #2BDEAC, #F028FD, #D8CCE6, #2F2585);
-  }
-  
-  .header-section__pyramid-loader .header-section__pyramid-wrapper .shadow {
-    width: 60px;
-    height: 60px;
-    background: #8B5AD5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transform: rotateX(90deg) translateZ(-40px);
-    filter: blur(12px);
   }

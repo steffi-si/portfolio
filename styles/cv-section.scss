@@ -7,13 +7,11 @@
 .cv-section__wrapper1 {
     width: 40%;
     background-color: $color-two;
-    box-shadow: 2px 2px 5px black inset;
 }
 
 .cv-section__wrapper2 {
     width: 60%;
     background-color: $color-one;
-    box-shadow: 2px 2px 5px black inset;
 }
 
 .cv-section__heading {
@@ -34,9 +32,9 @@
 }
 
 .cv-section__image {
-    width: 80%;
-    margin-top: 9vh;
-    margin-left: 4vw;
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
     border-radius: 15px;
     box-shadow: 2px 2px 3px 2px black; 
 }

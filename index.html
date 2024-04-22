@@ -9,16 +9,17 @@
 
 <body>
     <header class="header-section">
-        <h3 class="header-section__logo">Stefanie Sieg</h3>
-        <!-- <div class="header-section__pyramid-loader">
-            <div class="header-section__pyramid-wrapper">
-              <span class="side side1"></span>
-              <span class="side side2"></span>
-              <span class="side side3"></span>
-              <span class="side side4"></span>
-              <span class="shadow"></span>
-            </div>  
-          </div> -->
+        <div class="header-section--left">
+            <h3 class="header-section__logo">Stefanie Sieg</h3>
+            <div class="header-section__pyramid-loader">
+                <div class="header-section__pyramid-wrapper">
+                <span class="side side1"></span>
+                <span class="side side2"></span>
+                <span class="side side3"></span>
+                <span class="side side4"></span>
+                </div>  
+            </div>
+        </div>
         <nav class="header-section__nav">
             <ul class="header-section__nav-list">
                 <li class="header-section__nav-list-item">
@@ -39,13 +40,13 @@
 
     <main>
         <section class="about-section" id="about-section">
-            <div class="about-section__wrapper1">
+            <div class="about-section__wrapper1 section-wrapper">
                 <img class="about-section__image" src="./media/digital-woman.jpg" alt="Digital woman">
                 <h1 class="about-section__heading"><span class="highlighted-text">Welcome</span> to my website!
                     <br>
                 I am <span class="highlighted-text">web developer</span> Steffi.</h1>
             </div>
-            <d class="about-section__wrapper2">
+            <d class="about-section__wrapper2 section-wrapper">
                 <div class="tile tile1">
                     <p class="technologies">HTML</p>
                 </div>
@@ -68,11 +69,11 @@
         </section>
 
         <section class="cv-section" id="cv-section">
-            <div class="cv-section__wrapper1">
+            <div class="cv-section__wrapper1 section-wrapper">
                 <h2 class="cv-section__heading">Curriculum vitae</h2>
                 <img class="cv-section__image" src="./media/chips.jpg" alt="Computer chips">
             </div>
-            <div class="cv-section__wrapper2">
+            <div class="cv-section__wrapper2 section-wrapper">
                 <div class="cv-section__text-wrapper">
                     <p class="cv-section__text">
                         I first retrained as an IT specialist for <span class="highlighted-text">system integration</span>. Then I worked in <span class="highlighted-text">telephone support</span> for a large IT company. 
@@ -84,21 +85,21 @@
         </section>
 
         <section class="project-section" id="project-section">
-            <div class="project-section__wrapper1">
-                <p>under constructing</p>
+            <div class="project-section__wrapper1 section-wrapper">
+                <p>under construction</p>
             </div>
-            <div class="project-section__wrapper2">
-                <p>under constructing</p>
+            <div class="project-section__wrapper2 section-wrapper">
+                <p>under construction</p>
             </div>
         </section>
 
         <section class="contact-section" id="contact-section">
-            <div class="contact-section__wrapper1">
+            <div class="contact-section__wrapper1 section-wrapper">
                 <h2 class="contact-section__heading">Let's get in contact!</h2>
                 <p class="contact-section__note">Please <span class="highlighted-text--contact">fill</span> in <span class="highlighted-text--contact">all</span> fields!</p>
-                <img class="contact-section__image" src="./media/surfed-too-long.jpg" alt="Surfed too long">
+                <img class="contact-section__image" src="./media/too-much-internet.jpg" alt="Surfed too long">
             </div>
-            <div class="contact-section__wrapper2">
+            <div class="contact-section__wrapper2 section-wrapper">
                 <form action="" method="POST" class="contact-section__form">
                     <div class="contact-section__detail-wrapper">
                         <p class="contact-section__text">Please choose <span class="highlighted-text--contact">your gender</span>:</p>
@@ -128,14 +129,30 @@
                         <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
                     </div>
 
-                    <button class="contact-section__form-button" type="submit">Submit!</button>
+                    <button class="contact-section__form-button">Submit!</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer class="footer-section">
+        <div class="footer-section__pyramid-loader">
+            <div class="footer-section__pyramid-wrapper">
+            <span class="side side1"></span>
+            <span class="side side2"></span>
+            <span class="side side3"></span>
+            <span class="side side4"></span>
+            </div>  
+        </div>
         &copy; Stefanie Sieg 2024
+        <div class="footer-section__pyramid-loader">
+            <div class="footer-section__pyramid-wrapper">
+            <span class="side side1"></span>
+            <span class="side side2"></span>
+            <span class="side side3"></span>
+            <span class="side side4"></span>
+            </div>  
+        </div>
     </footer>
 </body>
 </html>
