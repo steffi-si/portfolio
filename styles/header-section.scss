@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: black;
-    color: white;
+    color: $color-five;
     height: 5vh;
     padding: 0.5%;
     position: fixed;
@@ -21,6 +21,6 @@
 
 .header-section__nav-list-item-link {
     text-decoration: none;
-    color: white;
+    color: $color-five;
     margin: 0px 10px;
 }

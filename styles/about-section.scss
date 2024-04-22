@@ -70,7 +70,7 @@
 
 .highlighted-text {
     color: transparent;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: $color-five;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
@@ -79,7 +79,7 @@
 
 .technologies {
     color: transparent;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: $color-five;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
@@ -88,11 +88,14 @@
 }
 
 .tile {
-    width: 175px;
+    width: 190px;
     height: 80px;
     box-shadow: 2px 2px 5px black inset;
     position: relative;
     top: -10px;
     right: 10px;
     border-radius: 15px;
+    background-image: url("../media/digital-woman.jpg");
+    background-position: left;
+    background-size: cover;
 }
