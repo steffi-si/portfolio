@@ -7,9 +7,61 @@
 .contact-section__wrapper1 {
     width: 40%;
     background-color: $color-four;
+    text-align: center;
+    box-shadow: 2px 2px 5px black inset;
 }
 
 .contact-section__wrapper2 {
     width: 60%;
     background-color: $color-three;
+    box-shadow: 2px 2px 5px black inset;
+}
+
+.contact-section__image {
+    width: 60%;
+    height: auto;
+    margin-top: 20%;
+    box-shadow: 2px 2px 3px 2px black;   
+    border-radius: 15px;    
+}
+
+.contact-section__heading {
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 5px;
+    padding-top: 10vh;
+}
+
+.contact-section__detail-wrapper {
+    padding: 1.5% 0 1.5% 5%;
+}
+
+.contact-section__form-button {
+    margin: 2% 2% 2% 5%;
+    padding: 0.5% 1.5%;
+    letter-spacing: 1px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.contact-section__text, .contact-section__note {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+input:active, textarea:active {
+    outline-color: $color-one;
+}
+
+input, textarea {
+    border-style: none;
+    border-radius: 15px;
+    padding: 0.1%;
+}
+
+input[type=text], input[type=email] {
+    width: 27%;
 }

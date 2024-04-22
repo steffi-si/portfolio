@@ -13,23 +13,23 @@
         <nav class="header-section__nav">
             <ul class="header-section__nav-list">
                 <li class="header-section__nav-list-item">
-                    <a class="header-section__nav-list-item-link" href="#">Home</a>
+                    <a class="header-section__nav-list-item-link" href="#about-section">Home</a>
                 </li>
                 <li class="header-section__nav-list-item">
-                    <a class="header-section__nav-list-item-link" href="#">Curriculum vitae</a>
+                    <a class="header-section__nav-list-item-link" href="#cv-section">Curriculum vitae</a>
                 </li>
                 <li class="header-section__nav-list-item">
-                    <a class="header-section__nav-list-item-link" href="#">Portfolio</a>
+                    <a class="header-section__nav-list-item-link" href="#project-section">Portfolio</a>
                 </li>
                 <li class="header-section__nav-list-item">
-                    <a class="header-section__nav-list-item-link" href="#">Contact</a>
+                    <a class="header-section__nav-list-item-link" href="#contact-section">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="about-section">
+        <section class="about-section" id="about-section">
             <div class="about-section__wrapper1">
                 <img class="about-section__image" src="./media/digital-woman.jpg" alt="Digital woman">
                 <h1 class="about-section__heading"><span class="highlighted-text">Welcome</span> to my website!
@@ -41,7 +41,7 @@
                     <p class="technologies">HTML</p>
                 </div>
                 <div class="tile tile2">
-                    <p class="technologies">CSS</p>
+                    <p class="technologies">S-/CSS</p>
                 </div>
                 <div class="tile tile3">
                     <p class="technologies">SQL</p>
@@ -58,7 +58,7 @@
             </div>
         </section>
 
-        <section class="cv-section">
+        <section class="cv-section" id="cv-section">
             <div class="cv-section__wrapper1">
                 <h2 class="cv-section__heading">Curriculum vitae</h2>
                 <img class="cv-section__image" src="./media/chips.jpg" alt="Computer chips">
@@ -74,21 +74,53 @@
             </div>
         </section>
 
-        <section class="project-section">
+        <section class="project-section" id="project-section">
             <div class="project-section__wrapper1">
-                
+                <p>under constructing</p>
             </div>
             <div class="project-section__wrapper2">
-                
+                <p>under constructing</p>
             </div>
         </section>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact-section">
             <div class="contact-section__wrapper1">
-                
+                <h2 class="contact-section__heading">Let's get in contact!</h2>
+                <p class="contact-section__note">Please <span class="highlighted-text--contact">fill</span> in <span class="highlighted-text--contact">all</span> fields!</p>
+                <img class="contact-section__image" src="./media/surfed-too-long.jpg" alt="Surfed too long">
             </div>
             <div class="contact-section__wrapper2">
-                
+                <form action="" method="POST" class="contact-section__form">
+                    <div class="contact-section__detail-wrapper">
+                        <p class="contact-section__text">Please choose <span class="highlighted-text--contact">your gender</span>:</p>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label class="contact-section__text" for="male">male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label class="contact-section__text" for="female">female</label><br>
+                        <input type="radio" id="diverse" name="gender" value="diverse">
+                        <label class="contact-section__text" for="diverse">diverse</label>
+                    </div>
+
+                    <div class="contact-section__detail-wrapper">
+                        <label class="contact-section__text" for="name">Please enter <span class="highlighted-text--contact">your first</span> and <span class="highlighted-text--contact">last name</span>:</label>
+                        <br>
+                        <input type="text" id="name" placeholder="Max Mustermann" name="name">
+                    </div>
+
+                    <div class="contact-section__detail-wrapper">
+                        <label class="contact-section__text" for="email">Please enter <span class="highlighted-text--contact">your email</span> address:</label>
+                        <br>
+                        <input type="email" id="email" placeholder="max@example.com" name="email">
+                    </div>
+
+                    <div class="contact-section__detail-wrapper">
+                        <label class="contact-section__text" for="message">Please enter <span class="highlighted-text--contact">your message</span> here:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <button class="contact-section__form-button" type="submit">Submit!</button>
+                </form>
             </div>
         </section>
     </main>

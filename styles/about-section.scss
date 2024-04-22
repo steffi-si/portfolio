@@ -68,18 +68,9 @@
     letter-spacing: 1px;
 }
 
-.highlighted-text {
-    color: transparent;
-    -webkit-text-fill-color: $color-five;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-    letter-spacing: 5px;
-    font-size: 36px;
-}
-
 .technologies {
     color: transparent;
-    -webkit-text-fill-color: $color-five;
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 5px;
@@ -95,7 +86,4 @@
     top: -10px;
     right: 10px;
     border-radius: 15px;
-    background-image: url("../media/digital-woman.jpg");
-    background-position: left;
-    background-size: cover;
 }
