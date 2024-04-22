@@ -10,6 +10,15 @@
 <body>
     <header class="header-section">
         <h3 class="header-section__logo">Stefanie Sieg</h3>
+        <!-- <div class="header-section__pyramid-loader">
+            <div class="header-section__pyramid-wrapper">
+              <span class="side side1"></span>
+              <span class="side side2"></span>
+              <span class="side side3"></span>
+              <span class="side side4"></span>
+              <span class="shadow"></span>
+            </div>  
+          </div> -->
         <nav class="header-section__nav">
             <ul class="header-section__nav-list">
                 <li class="header-section__nav-list-item">
@@ -104,19 +113,19 @@
                     <div class="contact-section__detail-wrapper">
                         <label class="contact-section__text" for="name">Please enter <span class="highlighted-text--contact">your first</span> and <span class="highlighted-text--contact">last name</span>:</label>
                         <br>
-                        <input type="text" id="name" placeholder="Max Mustermann" name="name">
+                        <input type="text" id="name" placeholder="Max Mustermann" name="name" minlength="3" required>
                     </div>
 
                     <div class="contact-section__detail-wrapper">
                         <label class="contact-section__text" for="email">Please enter <span class="highlighted-text--contact">your email</span> address:</label>
                         <br>
-                        <input type="email" id="email" placeholder="max@example.com" name="email">
+                        <input type="email" id="email" placeholder="max@example.com" name="email" minlength="6" required>
                     </div>
 
                     <div class="contact-section__detail-wrapper">
                         <label class="contact-section__text" for="message">Please enter <span class="highlighted-text--contact">your message</span> here:</label>
                         <br>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
                     </div>
 
                     <button class="contact-section__form-button" type="submit">Submit!</button>
