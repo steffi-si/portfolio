@@ -10,8 +10,8 @@
   justify-content: space-between;
   background-color: black;
   color: white;
-  height: 5vh;
-  padding: 0.5%;
+  height: 50px;
+  padding: 10px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -96,50 +96,19 @@
 }
 
 .about-section {
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
   display: flex;
-  margin-top: 5vh;
+  margin-top: 50px;
 }
 
 .about-section__wrapper2 {
   width: 60%;
   background-color: #62466B;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  padding-left: 15%;
-  padding-top: 7%;
-}
-
-.tile1 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.tile2 {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.tile3 {
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-
-.tile4 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-.tile5 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-
-.tile6 {
-  grid-column: 3/4;
-  grid-row: 3/4;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .about-section__wrapper1 {
@@ -183,8 +152,39 @@
   border-radius: 15px;
 }
 
+@media (min-width: 600px) {
+  .about-section__wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .tile1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .tile2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .tile3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .tile4 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .tile5 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .tile6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}
 .cv-section {
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
   display: flex;
 }
@@ -241,10 +241,10 @@
 }
 
 .contact-section {
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
   display: flex;
-  margin-bottom: 3.2%;
+  margin-bottom: 50px;
 }
 
 .contact-section__wrapper1 {
@@ -273,7 +273,7 @@
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   letter-spacing: 5px;
-  padding-top: 10vh;
+  padding-top: 10px;
 }
 
 .contact-section__detail-wrapper {
@@ -281,7 +281,7 @@
 }
 
 .contact-section__text, .contact-section__note {
-  font-size: 22px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
@@ -334,7 +334,7 @@ input[type=text]:focus, input[type=textarea]:focus {
   text-align: center;
   background-color: black;
   color: white;
-  height: 7vh;
+  height: 50px;
   padding-top: 12px;
   position: fixed;
   bottom: 0;
