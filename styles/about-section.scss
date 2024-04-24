@@ -1,6 +1,5 @@
 .about-section {
     height: calc(100vh - 60px);
-    width: 100%;
     display: flex;
     margin-top: 50px;
 }
@@ -56,6 +55,9 @@
 }
 
 @media (min-width:600px) {
+    .about-section {
+        width: 100%;
+    }
     .about-section__wrapper2 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

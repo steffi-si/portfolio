@@ -1,9 +1,9 @@
 @font-face {
   font-display: swap;
-  font-family: "Pacifico";
+  font-family: "Maregy";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/Pacifico/Pacifico-Regular.ttf") format("woff2");
+  src: url("./fonts/Maregy/fonts/maregy-font-1713938936-0/MAREGY-BF6625fa3b0f591.otf") format("woff2");
 }
 .header-section {
   display: flex;
@@ -97,7 +97,6 @@
 
 .about-section {
   height: calc(100vh - 60px);
-  width: 100%;
   display: flex;
   margin-top: 50px;
 }
@@ -153,6 +152,9 @@
 }
 
 @media (min-width: 600px) {
+  .about-section {
+    width: 100%;
+  }
   .about-section__wrapper2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -281,7 +283,7 @@
 }
 
 .contact-section__text, .contact-section__note {
-  font-size: 16px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -400,7 +402,7 @@ input[type=text]:focus, input[type=textarea]:focus {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Pacifico;
+  font-family: Maregy, sans-serif;
 }
 
 .highlighted-text {
